@@ -1,8 +1,8 @@
-# AI-Based Fabric Anomaly Detection System
+# Intelligent Textile Inspection System
 
 ## Overview
 
-The **AI-Based Fabric Anomaly Detection System** is an industrial computer vision solution developed for textile manufacturing. The system automatically inspects garments after the ironing process and before folding, ensuring that only defect-free garments proceed further in the production line.
+The **Intelligent Textile Inspection System** is an industrial computer vision solution developed for textile manufacturing. The system automatically inspects garments after the ironing process and before folding, ensuring that only defect-free garments proceed further in the production line.
 
 The primary objective is to eliminate manual inspection by detecting defects in real time with high accuracy, improving product quality, reducing production losses, and increasing manufacturing efficiency.
 

@@ -1,3 +1,22 @@
 The best model that simultaneously delivers industry-standard accuracy, production line speed, and runs perfectly without a costly GPU is EfficientAD.
 1. Why it meets Industry Standard AccuracyOn the industry benchmark MVTec AD dataset, EfficientAD achieves an outstanding 99.1% to 99.5% Image AUROC score, making it functionally identical in accuracy to PatchCore. However, unlike typical anomaly detection networks that get confused by complex scenes, EfficientAD incorporates a uniquely structured Patch Description Network (PDN). 
 This network uses strict receptive fields ensuring that fine-grained local pixels map directly to accurate defect regions, allowing it to easily spot micro-defects or larger "logical" structure anomalies (like a missing component)
+
+
+1. Industry-standard accuracy
+
+Yes. On the MVTec AD benchmark, EfficientAD achieves very high AUROC scores (around 99%+), making it competitive with leading anomaly detection methods like PatchCore and FastFlow on that dataset.
+
+However:
+
+MVTec AD contains 15 product categories.
+Textile in MVTec is relatively controlled.
+Real textile production lines usually have:
+Different fabric colors
+Different textures
+Variable lighting
+Fabric movement
+Motion blur
+Different weave patterns
+
+So 99% on MVTec does not automatically mean 99% in a factory.
